@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Interest Calculator</title>
+</head>
+<body>
+   <div class="" >
+      <a href=""><img class="logo"  src="https://dashboard.piggyvest.com/static/media/piggyvest-logo.0b78a8fa.svg" alt="piggyvest logo"></a>
+    </div>
+  <div class="form">
+    <div class="top">
+      <h2>Calculate Your Interest</h2>
+    </div>
+  <form>
+    <div class="form-row">
+       <div class="form-group col-md-4">
+        <label for="inputPackage">Package</label>
+        <select id="inputPackage" class="form-control">
+          <option selected>Choose...</option>
+          <option>Piggybank</option>
+          <option>Flex Naira</option>
+          <option>Safelock</option>
+          <option>Target</option>
+          <option>Flex Dollar</option>
+        </select>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="rate">Rate(p.a):</label>
+        <input type="text" class="form-control" id="rate" value="Rate" readonly>
+      </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputPrincipal">Principal:</label>
+      <input type="text" class="form-control" id="inputPrincipal" placeholder="Principal">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPeriod">Period:</label>
+      <input type="text" class="form-control" id="inputPeriod" placeholder="Period(Months)">
+    </div>
+  </div>
+  <div class="form-row"> 
+    <button type="button" id="submit" class="btn btn-primary">Caculate</button>
+  <div class="">
+        <input type="text" class="form-control" id="amount" value="Interest" readonly>
+      </div>
+  </div>
+  
+</form>
+</div>
+
+<script type="text/javascript" src="script.js"></script>  
+</body>
+</html>
